@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Game of Life</title>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+  <!-- standard -->
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" >
+  <script type="text/javascript" src="js/bootstrap-select.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+
+  <!-- custom -->
+  <link href="css/gameoflife.css" rel="stylesheet">
+  <script src="js/gameoflife.js" type="text/javascript" ></script>
+
+</head>
+<body>
+
+<canvas id="gol"></canvas>
+
+<div id="controls-container" class="btn-group btn-group-sm">
+    <button id="play" class="btn btn-primary glyphicon glyphicon-play"></button>
+    <button id="backward" class="btn btn-default glyphicon glyphicon-backward"></button>
+    <button id="forward"  class="btn btn-default glyphicon glyphicon-forward"></button>
+    <button id="clear" class="btn btn-default glyphicon glyphicon-remove" data-toggle="tooltip" data-placement="top" data-original-title="Clear" ></button>
+    <button id="multiplayer" class="btn btn-default glyphicon glyphicon-user" data-toggle="tooltip" data-placement="top" data-original-title="All visitors edit the same canvas" data-toggle="button"></button>
+    <button id="color" class="btn btn-default" data-toggle="tooltip" data-placement="top" data-original-title="Use random blended colors (slower)" data-toggle="button"><span class="glyphicon glyphicon-tint"></span></button>
+   <!-- <button id="download" class="btn btn-default glyphicon glyphicon-save" data-toggle="tooltip" data-placement="top" data-original-title="Save the image" ></button> -->
+
+    <button id="settings-button" class="btn btn-default glyphicon glyphicon-wrench" data-placement="top"  data-toggle="popover"   ></button>
+
+    <select id="pattern" class="selectpicker"> </select>
+    <span id="gen" class="label label-default">0</span>
+
+</div>
+
+</body>
+</html>
