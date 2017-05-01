@@ -1,5 +1,7 @@
 ## Game of Life -- Android
 
+https://play.google.com/store/apps/details?id=com.gulakov.gameoflife&hl=en
+
 Conway's Game of Life, with custom rules, patterns, multicolor, and massively multiplayer.
 
 Sample cordova android app using HTML5 canvas, Jquery & Bootstrap
