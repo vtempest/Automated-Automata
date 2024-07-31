@@ -3,18 +3,17 @@
   "version": "2.0.0",
   "scripts": {
     "dev": "vite dev",
-    "deploy": "wrangler deploy && wrangler tail",
     "build": "vite build ",
     "preview": "vite preview",
     "package": "svelte-kit sync && svelte-package && publint",
-    "prepublishOnly": "npm run package",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+    "deploy": "wrangler deploy && wrangler tail",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json"
   },
   "peerDependencies": {
     "svelte": "^4.0.0"
   },
   "devDependencies": {
+    "@capacitor/cli": "^6.1.1",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/adapter-cloudflare": "^4.6.0",
     "@sveltejs/kit": "^2.0.0",
@@ -29,6 +28,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@capacitor/android": "^6.1.1",
+    "@capacitor/core": "^6.1.1",
     "@sveltejs/adapter-cloudflare-workers": "^2.4.0",
     "@sveltejs/adapter-static": "^3.0.2",
     "autoprefixer": "^10.4.19",

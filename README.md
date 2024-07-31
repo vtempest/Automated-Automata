@@ -13,7 +13,10 @@
 
 ### Further Research
 
+
 * Johnston, Nathaniel, and Greene, Dave  (2022). "Conway's Game of Life". https://conwaylife.com/book/#rle_files
+
+*  Bradbury, Phillip (2012). "Life in life". https://www.youtube.com/watch?v=xP5-iIeKXE8
 
 *  Wolfram, Stephen (2020). "Stephen Wolfram: Cellular Automata, Computation, and Physics | Lex Fridman Podcast #89" https://www.youtube.com/watch?v=ez773teNFYA
 
