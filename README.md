@@ -1,14 +1,42 @@
-## Automata "Game of Life" App
+<p align="center">
+    <img  src="https://i.imgur.com/XR8Zs9R.png" />
+</p>
+<p align="center">
+    <a href="https://discord.gg/SJdBqBz3tV">
+        <img src="https://img.shields.io/discord/1110227955554209923.svg?label=Chat&logo=Discord&colorB=7289da&style=flat"
+            alt="Join Discord" />
+    </a>
+     <a href="https://github.com/vtempest/Automate-Automata/discussions">
+     <img alt="GitHub Stars" src="https://img.shields.io/github/stars/vtempest/Automate-Automata" /></a>
+    <a href="https://github.com/vtempest/Automate-Automata/discussions">
+    <img alt="GitHub Discussions"
+        src="https://img.shields.io/github/discussions/vtempest/Automate-Automata" />
+    </a>
+    <a href="https://github.com/vtempest/Automate-Automata/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/vtempest/Automate-Automata" />
+    </a>
+    <img src="https://img.shields.io/github/last-commit/vtempest/Automate-Automata.svg?style=flat-square" alt="GitHub last commit" />
+</p>
+<p align="center">
+        <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"
+            alt="PRs Welcome" />
+    <a href="https://codespaces.new/vtempest/Automate-Automata">
+    <img src="https://github.com/codespaces/badge.svg" width="150" height="20" />
+    </a>
+</p>  
+<h3>
+  <a href="https://automata-game-of-life.vtempest.workers.dev"> 🚀 Demo</a>
+  <a href="https://play.google.com/store/apps/details?id=com.vtempest.automata"> 🚀 Android App</a>
+</h3>
 
-### [Live Demo](https://automata-game-of-life.vtempest.workers.dev)
 
-* [Android App on Play Store](https://play.google.com/store/apps/details?id=com.gulakov.gameoflife&hl=en
-) - developed in 2014 and 10+ years as Android app with Javascript, rewriten in Svelte  
+## Automate Automata: "Game of Life" App
 
 * Custom rule sets, common patterns, and color mixing to produce artistic fades
 
 * Automated mode - randomize rule set changes & patterns and watch life unfold...
 
+* developed in 2014 and 10+ years as Android app with Javascript, rewriten in Svelte  
 
 
 ### Further Research
